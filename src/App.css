@@ -1,20 +1,21 @@
 .App {
-  text-align: center;
+  text-align: left;
+  
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
+  text-align: left;
   pointer-events: none;
+  vertical-align: middle;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FDC135;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
+  text-align: left;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -30,4 +31,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Text-head {
+  font-size: 60px;
+  margin-top: 25px;
+}
+.Text-head2 {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.Form-head {
+  vertical-align: text-top;
+}
+.Table-head {
+  text-align: right;
+}
+
+.profile {
+  font-size: 20px;
+  margin-top: 25px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.right {
+  text-align: right;
+}
+.bgbody {
+  background-color: #FDC135;
 }
